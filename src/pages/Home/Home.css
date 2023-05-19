@@ -1,0 +1,16 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  color: #222;
+}
+
+.hero h3 {
+  font-size: 1.8rem;
+  align-self: flex-end;
+  color: #333;
+}

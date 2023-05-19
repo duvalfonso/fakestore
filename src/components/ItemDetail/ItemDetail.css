@@ -1,0 +1,18 @@
+.contenedor-detalle {
+  padding: 1rem;
+}
+
+.contenedor-item {
+  display: flex;
+  text-align: center;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  border-radius: .5rem;
+}
+
+img {
+  width: 30em;
+  border-radius: .5rem;
+  margin: 1rem;
+}
