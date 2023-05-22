@@ -2,6 +2,7 @@ const productos = [
   {
     id: "1",
     description: "Juego de Comedor 6 Puestos Roma",
+    stock: 10,
     category: "comedor",
     price: 899,
     img: "https://falabella.scene7.com/is/image/Falabella/6459012_1?wid=1500&hei=1500&qlt=70"
@@ -16,6 +17,7 @@ const productos = [
   {
     id: "3",
     description: "Juego de Comedor 4 Puestos Mara",
+    stock: 10,
     category: "comedor",
     price: 849,
     img: "https://falabella.scene7.com/is/image/Falabella/15589862_1?wid=1500&hei=1500&qlt=70"
@@ -23,6 +25,7 @@ const productos = [
   {
     id: "4",
     description: "Cama Europea 2 Plazas + Respaldo",
+    stock: 10,
     category: "dormitorio",
     price: 849,
     img: "https://falabella.scene7.com/is/image/Falabella/7350188_1?wid=1500&hei=1500&qlt=70"
@@ -30,6 +33,7 @@ const productos = [
   {
     id: "5",
     description: "Cama Nido Divan Ergo T 1,5 Plazas",
+    stock: 10,
     category: "dormitorio",
     price: 499,
     img: "https://falabella.scene7.com/is/image/Falabella/16387954_1?wid=1500&hei=1500&qlt=70"
@@ -37,6 +41,7 @@ const productos = [
   {
     id: "6",
     description: "Cama Tempo Rosen 2 Plazas",
+    stock: 10,
     category: "dormitorio",
     price: 799,
     img: "https://falabella.scene7.com/is/image/Falabella/6329853_1?wid=1500&hei=1500&qlt=70"
@@ -44,6 +49,7 @@ const productos = [
   {
     id: "7",
     description: "Cama Ergo T Rosen 2 Plazas Ferrara",
+    stock: 10,
     category: "dormitorio",
     price: 899,
     img: "https://falabella.scene7.com/is/image/Falabella/16387934_1?wid=1500&hei=1500&qlt=70"
@@ -51,6 +57,7 @@ const productos = [
   {
     id: "8",
     description: "Cama Europea Terra Cobre 2 Plazas + Muebles Lorraine",
+    stock: 10,
     category: "dormitorio",
     price: 999,
     img: "https://falabella.scene7.com/is/image/Falabella/7001702_1?wid=1500&hei=1500&qlt=70"
@@ -58,6 +65,7 @@ const productos = [
   {
     id: "9",
     description: "Cama Europea Ortopedic 1.5 Plazas Respaldo Dub",
+    stock: 10,
     category: "dormitorio",
     price: 499,
     img: "https://falabella.scene7.com/is/image/Falabella/15526297_1?wid=1500&hei=1500&qlt=70"
@@ -65,6 +73,7 @@ const productos = [
   {
     id: "10",
     description: "Kit Mueble de Cocina 6 puertas Golden",
+    stock: 10,
     category: "cocina",
     price: 109,
     img: "https://sodimac.scene7.com/is/image/SodimacCL/5663881_01?wid=1500&hei=1500&qlt=70"
@@ -72,6 +81,7 @@ const productos = [
   {
     id: "11",
     description: "Kit mueble cocina new quartz nogal white 220x201x36 cm",
+    stock: 10,
     category: "cocina",
     price: 169,
     img: "https://sodimac.scene7.com/is/image/SodimacCL/5315069_01?wid=1500&hei=1500&qlt=70"
@@ -79,6 +89,7 @@ const productos = [
   {
     id: "12",
     description: "Kit mueble cocina 121x174x36 cm Blanco",
+    stock: 10,
     category: "cocina",
     price: 189,
     img: "https://sodimac.scene7.com/is/image/SodimacCL/2645440_02?wid=1500&hei=1500&qlt=70"
@@ -86,6 +97,7 @@ const productos = [
   {
     id: "13",
     description: "Mueble Despensa Génova 2 puertas 61x160.6x31.8",
+    stock: 10,
     category: "cocina",
     price: 114,
     img: "https://sodimac.scene7.com/is/image/SodimacCL/5390427_01?wid=1500&hei=1500&qlt=70"
@@ -93,6 +105,7 @@ const productos = [
   {
     id: "14",
     description: "Mueble base 2 puertas cubierta",
+    stock: 10,
     category: "cocina",
     price: 99,
     img: "https://sodimac.scene7.com/is/image/SodimacCL/8703779_00?wid=1500&hei=1500&qlt=70"
@@ -100,6 +113,7 @@ const productos = [
   {
     id: "15",
     description: "Isla Cocina Aspen Blanca Denver",
+    stock: 10,
     category: "cocina",
     price: 109,
     img: "https://sodimac.scene7.com/is/image/SodimacCL/8719403_01?wid=1500&hei=1500&qlt=70"

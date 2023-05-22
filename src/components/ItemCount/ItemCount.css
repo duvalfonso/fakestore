@@ -19,3 +19,9 @@
 .contador-contenedor p {
   font-size: 2.2rem;
 }
+
+.add-to-cart {
+  background: rgb(129, 207, 207);
+  padding: .3rem 1rem;
+  font-size: 1.2rem;
+}
