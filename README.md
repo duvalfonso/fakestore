@@ -1,3 +1,19 @@
+
+# FakeStore
+Este es un proyecto básico de tienda online desarrollado con React. Inspirado en el contenido del curso ReactJs de coderHouse.
+
+
+## Tecnologías
+Para este proyecto se usó react router para la navegación y Firebase de google para la base de datos.
+
+
+## Funcionalidades
+- Lista de productos.
+- Filtrado por categorías.
+- Carrito de compras y administración de su contenido.
+- Generar orden de compra.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
