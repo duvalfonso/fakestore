@@ -14,16 +14,21 @@
   position: relative;
   overflow: hidden;
   text-align: center;
+  display: grid;
+  
 }
 
 .contenedor-productos .card-producto img {
   width: 19em;
 }
 
-.contenedor-productos .card-producto .btn-producto {
+.btn-detail {
+  width: fit-content;
+  place-self: center;
   font-size: 1rem;
   padding: .1rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-  background: rgb(129, 207, 207);
+  background: #ffb703;
+  border: .1rem solid rgba(0, 0, 0, .3);
 }

@@ -28,4 +28,5 @@ const ItemCount = ({ inicial, stock, funcionAgregar }) => {
   );
 };
 
+
 export default ItemCount;

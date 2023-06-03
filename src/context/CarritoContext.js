@@ -5,23 +5,30 @@ export const CarritoContext = createContext({ cart: [] });
 export const CarritoProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
 
-  console.log(cart);
+  //console.log(cart);
 
   const addItem = (item, cantidad) => {
-    const productoExistente = cart.find(prod => prod.item.id === item.id);
-    if (!productoExistente(item.id)) {
-      setCart((prev) => [...prev, { item, cantidad }]);
+    const isInCart = cart.find(prod => prod.item.id === item.id);
+
+    if (!isInCart) {
+      setCart(prev => [...prev, { item, cantidad }]);
     } else {
-      console.log("Producto ya agregado!");
+      const updatedCart = cart.map(prod => {
+        if (prod.item.id === item.id) {
+          return { ...prod, cantidad: prod.cantidad + cantidad }
+        }else {
+          return prod;
+        }
+      });
+
+      setCart(updatedCart);
     }
   };
 
-  // const isInCart = (id) => {
-  //   return cart.some((prod) => prod.id === id);
-  // };
+  
 
   const removeItem = (id) => {
-    const updatedCart = cart.filter((prod) => prod.id !== id);
+    const updatedCart = cart.filter(prod => prod.item.id !== id);
     setCart(updatedCart);
   };
 

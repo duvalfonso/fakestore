@@ -11,7 +11,8 @@ const ItemDetail = ({id, description, category, price, img, stock}) => {
   const [agregarCantidad, setAgregarCantidad] = useState(0);
   
   const {addItem} = useContext(CarritoContext);
-  console.log(addItem);
+
+  
   const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
     //console.log(` Se han agregado al carrito : ${cantidad} productos!`);

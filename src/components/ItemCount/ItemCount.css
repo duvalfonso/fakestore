@@ -13,7 +13,7 @@
   max-height: 3rem;
   border: 1px solid;
   border-radius: 5px;
-  background: rgb(129, 207, 207);
+  background: #ffb703;
 }
 
 .contador-contenedor p {
@@ -21,7 +21,7 @@
 }
 
 .add-to-cart {
-  background: rgb(129, 207, 207);
+  background: #ffb703;
   padding: .3rem 1rem;
   font-size: 1.2rem;
 }
