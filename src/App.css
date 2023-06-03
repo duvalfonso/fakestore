@@ -1,5 +1,6 @@
 .wrapper {
   padding: 1rem 9%;
+  min-height: 80vh;
 }
 
 a {

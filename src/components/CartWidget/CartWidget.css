@@ -1,3 +1,21 @@
+a {
+  position: relative;
+}
+
 .img-carrito {
   width: 2.5rem;
+}
+
+.quantity {
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  border: .1rem solid rgba(0, 0, 0, .3);
+  display: inline-block;
+  background: #ffb703;
+  border-radius: 50%;
+  width: 1.1rem;
+  aspect-ratio: 1/1;
+  bottom: 7px; right: 0;
 }

@@ -23,23 +23,21 @@ const Checkout = () => {
 
     if (email !== emailConfirmation) {
       setError("Los campos del email no coinciden");
+      return;
     }
 
     const order = {
-      items: cart.map((producto) => ({
+      items: cart.map(producto => ({
         id: producto.item.id,
         nombre: producto.item.description,
         cantidad: producto.cantidad,
       })),
-      total: cart.reduce(
-        (total, producto) => total + producto.item.precio * producto.cantidad,
-        0
-      ),
-      name,
-      lastname,
-      phone,
-      email,
-    };
+      total: cart.reduce((total, producto) => total + producto.item.price * producto.cantidad, 0),
+        name,
+        lastname,
+        phone,
+        email
+      };
 
     addDoc(collection(db, "ordenes"), order)
       .then((docRef) => {
